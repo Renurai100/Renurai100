@@ -1,0 +1,83 @@
+Ques1.- Introduce yourself.
+
+Ques2.- Explain framework.
+I have worked on hybrid framework which is combination of data driven framework and test driven framework.
+To achieve data driven I have used apache poi library and to achieve test driven I have used TestNG library.
+To design my testscripts I have used pom(page object model)design technique.
+
+pom: According to pom design technique we need to keep objects or webelement of a webpage in a separate class and for testing this page will create the separate class. 
+
+/- means immediate child
+//- means any child or descendent
+
+. - Current project
+: - Parent project
+
+For each loop- 
+
+
+WebDriver driver=new WebDriver(); ------statement is invalid bcoz webdriver is interface, we cannot create object of interface
+WebDriver driver=new ChromeDriver(); ---- Here we are doing upcasting, to achieve runtime polymorphism we can execute testcases in any browser
+ChromeDriver driver=new ChromeDriver(); ----- This statement is valid but we can execute our testcases in chromebrowser only.
+
+Close & Quit-- Close method will close currently focused tab or window,it will close all the tabs opened by driver. 
+
+Ques3.- What is constructor?
+*It is the Member of the class having same name as that of class name.
+
+Ques4.- What is difference between constructor and Method?
+* same as above
+* Constructor is a special type of method without return type.
+
+Ques5.- What is encapsulation?
+* Wrapping or binding the method and variable into a single unit.
+
+Ques6.- How to achieve encapsulation?
+1. By declaring variable as private.
+2. By declaring method as public.
+
+Ques7.- What is tightly encapsulated class?
+* The class in which all the variables declared as private.
+
+Ques8.- Where have you used encapsulation concept in your framework?
+* I have used encapsulation each and every page class like loginpage.java, registerpage.java, paymentpage.java
+
+Ques9. What is inheritance?
+* Inheritance is a process where one class acquire the property and behavior of another class.
+
+Ques10. How to achieve inheritance?
+* By using extends keywords, and implements keywords
+
+Ques11.- Where have you used inheritance concept in your framework?
+* In my framework I have create BaseTest(where I have created method for all the common or repeated steps like open the browser, enter the URL, close the browser etc.). 
+
+* I have created test class to test each and every page, each and every test class extends the base test, so that I can execute the common steps.
+
+Ques12. What is abstraction?
+* Hiding the implementation and showing the functionality.
+
+public void areaofcircle(int r)
+{
+  int a=3.14 *r*r;
+}
+
+
+abstract public void areaofcircle(int r);
+  
+
+
+Ques 13.- How to achieve abstraction?
+* By using abstract class and interface 
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
